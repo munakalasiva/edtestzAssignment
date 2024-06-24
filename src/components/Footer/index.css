@@ -29,10 +29,15 @@
     width:200px;
     border: none;
     color:black;
-    background: #f1db25;
+    background-color: #f1db25;
     border-radius: 30px;
     margin-top: 15px;
    
+}
+.foo-btn:hover{
+    background:white;
+    color: black;
+    
 }
 
 .foo-input{

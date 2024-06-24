@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './components/Layout';
 import {Route, Switch} from 'react-router-dom';
 import Home from './components/Home'
+import Explore from "./components/Explore"
 import Services from './components/Services'
 import Careers from './components/Careers'
 import About from './components/About'
@@ -19,6 +20,7 @@ function App() {
     <Switch>
        
         <Route exact path="/" component={Home} />
+        <Route exact path="/explore" component={Explore}/>
         <Route exact path="/location" component={GoogleMap}/>
         <Route exact path="/services" component={Services} />
         <Route exact path="/careers" component={Careers} />
