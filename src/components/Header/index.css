@@ -1,0 +1,41 @@
+
+.nav-menu-item {
+    font-family: 'Roboto';
+    margin: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color:white;
+  }
+.nav-menu-item:hover{
+    color: aqua !important;
+  }
+ 
+.navbar-toggler{
+  color:white;
+  background-color: #ffffff !important;
+}  
+.navbar-toggler-icon{
+    background-color: #ffffff;
+}
+.custom-toggler {
+  border-color: #ffffff; /* Change the border color */
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:white !important;
+  }
+
+.custom-navbar {
+    background-color:black !important; /* Custom background color */
+    
+}
+
+
+
+
+
+
+ 

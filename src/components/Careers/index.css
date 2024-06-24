@@ -1,0 +1,284 @@
+.main-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+    background-color:#27B7A6;
+    height:100vh;
+    
+}
+.carrer-heading{
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+/**/
+.search {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .search input[type="text"] {
+    width:40vw;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search button[type="submit"] {
+    background-color: #4e99e9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+  
+  .search button[type="submit"]:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: blue;
+  }
+
+  
+ /**/ 
+ .filter-wrap{
+    display:flex;
+ }
+ .icon-sp{
+      height:25px;
+      width:25px;
+      color:white;
+      margin:5px 10px 20px 5px;
+
+ }
+
+.style{
+    display:flex;
+    color:white;
+}
+.select-style{
+    display:flex;
+
+}
+.search-labels{
+    font-size:20px;
+    margin-left:20px;
+}
+/**/
+#dropdown-basic-button{
+    margin-left:20px;
+    height:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+
+
+
+.search-container{
+    width:40vw;
+    display:flex;
+    align-self:center;
+    font-size:15px;
+    position:relative;
+    top:5%;
+    
+    
+}
+
+.content-part{
+    margin-top:50px;
+}
+
+.career-select{
+    border-radius:5px;
+    margin-left:10px;
+    padding:0px 0px 0px 10px;
+    font-size:20px;
+}
+.next{
+    width:50px;
+}
+
+.careers-container{
+    background-color:white;
+    width:600px;
+    border-radius:10px;
+    margin:15px;
+    padding:15px;
+}
+
+
+.contin-head{
+    font-size:25px;
+}
+.paragraph{
+    font-size:18px;
+}
+.head-wrap{
+    display:flex;
+    justify-content:space-between;
+}
+.btn-wrap{
+    display:flex;
+    justify-content:space-between;
+}
+
+.card-btn{
+    margin: 40px 0px 0px 0px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    /* padding: 10px 24px; */
+    font-size: 18px;
+    color: rgb(193, 163, 98);
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .card-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card-btn:hover::before {
+    scale: 3;
+  }
+  
+  .card-btn:hover {
+    color:white;
+    scale: 1.1;
+    box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+  
+  
+  
+
+  /* search bar css */
+
+  .searchBox {
+    display: flex;
+    max-width:600px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: #2f3640;
+    border-radius: 50px;
+    position: relative;
+    
+  }
+  
+  .searchButton {
+    color: white;
+    position: absolute;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+  button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    
+    transform: translateY(-3px);
+  }
+  /*button pressing effect*/
+  button:active {
+    
+    box-shadow: none;
+    transform: translateY(0);
+    
+  }
+  
+  .searchInput {
+    width:600px;
+    height:50px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    padding: 24px 46px 24px 26px;
+  }
+  .searchInput[type="text"]::placeholder{
+      color:white;
+  }
+ 
+  
+  @media screen and (max-width:768px){
+    .careers-container{
+      background-color:white;
+      width:80vw;
+      border-radius:10px;
+      margin:10px;
+      padding:10px;
+  }
+
+  .main-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+    background-color:#27B7A6;
+    height:auto;
+    
+}
+
+.searchInput {
+  width:80vw;
+  height:50px;
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 17px;
+  padding: 24px 46px 24px 26px;
+}
+
+.style{
+  display:flex;
+  flex-direction:column;
+  color:white;
+}
+
+.select-style{
+  display:flex;
+  margin-bottom:20px;
+}
+.filter-wrap{
+  display:none;
+}
+
+  }  

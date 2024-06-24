@@ -1,0 +1,78 @@
+.bg-container{
+    background-image:url("https://img.freepik.com/free-photo/flat-lay-aesthetic-office-desk_23-2148219266.jpg?t=st=1719125896~exp=1719129496~hmac=302c3452e597de975a9b97e508c1ae8f4891c64787280ab0f488d0f826f0d5ba&w=1060");
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    text-align:center;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.adj{
+    display:flex;
+    justify-content:center;
+}
+
+
+.sub-head{
+     font-size:25px;
+}
+
+.card{
+    
+    border-radius:10px;
+    margin:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    width:25vw;
+}
+
+.button{
+    border-radius:25px;
+    padding:10px;
+    font-size:15px;
+    background-color:white;
+    color:black;
+    border: 2px solid black;
+    height:40px;
+    width:100px;
+    
+}
+.btn1{
+    margin-top:25px;
+}
+
+.head{
+    color:#2C2E30;
+    font-weight:bold;
+    position:relative;
+}
+
+@media screen and (max-width:768px){
+    .adj{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .card{
+    
+        border-radius:10px;
+        margin:30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:10px;
+        width:80vw;
+    }
+
+    .bg-container{
+        height:auto;
+    }
+}

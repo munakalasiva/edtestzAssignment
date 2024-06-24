@@ -1,0 +1,57 @@
+
+
+.team-cont{
+    height:100vh; 
+    background-color:#E2EAF4;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    padding:30px;
+}
+
+/* src/ImageWithText.css */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin:20px;
+  }
+  
+  .image {
+    height:200px;
+    width:300px;
+    border-radius:10px;
+  }
+
+  .team-para{
+    font-size:18px;
+  }
+  
+  .overlay-text {
+    position:relative;
+    bottom:0%;
+    width:300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Change text color as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    font-size:15px; /* Adjust font size as needed */
+  }
+  
+  .cards-cont{
+      display:flex;
+      flex-wrap:wrap;
+  }
+
+  @media screen and (max-width:768px){
+       .team-cont{
+        height:auto;
+       }
+       .team-para{
+          font-size:15px;
+       }
+  }
