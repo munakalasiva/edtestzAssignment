@@ -1,5 +1,5 @@
 .bg-container{
-    background-image:url("https://img.freepik.com/free-photo/flat-lay-aesthetic-office-desk_23-2148219266.jpg?t=st=1719125896~exp=1719129496~hmac=302c3452e597de975a9b97e508c1ae8f4891c64787280ab0f488d0f826f0d5ba&w=1060");
+    background-image:url("C:/Users/munak/glignesis/src/laptop-with-pen-pencil-paper-clips-sticky-notes-spiral-notepad-beige-background (1).jpg");
     height:100vh;
     width:100%;
     background-size:cover;
@@ -22,7 +22,7 @@
 }
 
 .card{
-    
+    font-size:22px;
     border-radius:10px;
     margin:30px;
     display:flex;
@@ -36,20 +36,29 @@
 .button{
     border-radius:25px;
     padding:10px;
-    font-size:15px;
+    font-size:18px;
     background-color:white;
     color:black;
-    border: 2px solid black;
+    border: 2px solid rgb(82, 82, 82);
     height:40px;
-    width:100px;
+    width:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     
+}
+.button:hover{
+    background-color: #d1bd57;
+    color: white;
+    border: white
+
 }
 .btn1{
     margin-top:25px;
 }
 
 .head{
-    color:#2C2E30;
+    color:#ffffff;
     font-weight:bold;
     position:relative;
 }

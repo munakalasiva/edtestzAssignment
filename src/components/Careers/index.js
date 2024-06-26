@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./index.css"
 import { useHistory } from "react-router-dom";
 import { HiAdjustmentsHorizontal } from "react-icons/hi2";
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+
 
 
 const Careers=()=>{
@@ -12,21 +11,40 @@ const Careers=()=>{
   const handleApplyClick=()=>{
        history.replace("/application");
    }
+
+   const [search,setSearch]=useState("");
+   const [location, setLocation] = useState('');
+   const [experience, setExperience] = useState('');
+   
+   const handleChange = (event) => {
+       const value = event.target.value;
+       setLocation(value);
+       setExperience(value);
+
+       console.log(value)
+   }    
+
+   const handleSubmit = (event) => {
+       event.preventDefault();
+       
+       console.log({search});
+       
+     };
+
+
     return(
            
            <div className="main-container">
               <h1 className="carrer-heading">Search for roles <br/>at Glignesis</h1>
-                    
-                 <div>
 
-                 <div class="searchBox">
-
-                     <input class="searchInput" type="text" name="" placeholder="Search something"/>
-                     <button class="searchButton" href="#">
+          <form onSubmit={handleSubmit}>
+              
+             <div class="searchBox">
+               
+               <input class="searchInput" type="text" name="search" placeholder="Search something" value={search} onChange={(e) => setSearch(e.target.value)}/>
+              <button class="searchButton">
                             
-                     
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 29 29" fill="none">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="5 5 28 28" fill="none">
                      <g clip-path="url(#clip0_2_17)">
                      <g filter="url(#filter0_d_2_17)">
                      <path d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>
@@ -51,30 +69,30 @@ const Careers=()=>{
                             
 
                      </button>
-                     </div>
+                     
+              </div>
 
-
-
-                 </div>
+              </form>
               
                      
                 <div className="content-part">
                 <div className="style">
                      <div className="select-style">
                             <label className="search-labels">Location : </label>
-                            <DropdownButton id="dropdown-basic-button" title="select">
-                            <Dropdown.Item as="button">Hyderabad</Dropdown.Item>
-                                   
-                            </DropdownButton>
+                            <select className="dropdown-basic-button" value={location} onChange={handleChange}>
+                                   <option>select</option>
+                                   <option>Hyderabad</option>
+                            </select>
                      </div>
 
                      <div className="select-style">
                             <label className="search-labels">Experience :</label>
-                            <DropdownButton id="dropdown-basic-button" title="select">
-                                   <Dropdown.Item as="button">0</Dropdown.Item>
-                                   <Dropdown.Item as="button">1</Dropdown.Item>
-                                   <Dropdown.Item as="button">2</Dropdown.Item>
-                            </DropdownButton>
+                            <select className="dropdown-basic-button" value={experience} onChange={handleChange}>
+                                   <option>select</option>
+                                   <option>0</option>
+                                   <option>1</option>
+                                   <option>2</option>
+                            </select>
                      </div>
                      <div className="filter-wrap">
                             <p className="search-labels">Filter</p>
@@ -82,7 +100,7 @@ const Careers=()=>{
                      </div>
                 </div>
               </div>   
-
+               
                 <div className="careers-container">
                      <div className="head-wrap">
                             <h1 className="contin-head">ReactJS Developer</h1>

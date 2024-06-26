@@ -73,7 +73,7 @@ const ContactUs = () => {
           className='input-field msg'
         />
       </div>
-      <button type="submit" className="btn">Submit</button>
+      <button type="submit" className="btn">SUBMIT</button>
     </form>
     </div> 
     </div>

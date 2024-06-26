@@ -12,6 +12,9 @@ import './App.css';
 
 import Apply from "./components/Apply";
 import GoogleMap from './components/GoogleMap';
+import MorePOS from "./components/MorePOS";
+import PrivacyPolicy from "./PrivacyPolicy";
+import TermsAndConditions from "./TermsAndConditions";
 
 function App() {
   return (
@@ -23,12 +26,14 @@ function App() {
         <Route exact path="/explore" component={Explore}/>
         <Route exact path="/location" component={GoogleMap}/>
         <Route exact path="/services" component={Services} />
+        <Route exact path="/moreaboutpos" component={MorePOS}/>
         <Route exact path="/careers" component={Careers} />
         <Route exact path="/application" component={Apply}/>
         <Route exact path="/about" component={About} />
         <Route exact path="/team" component={Team} />
         <Route exact path="/contact us" component={ContactUs} />
-
+        <Route exact path="/privacypolicy" component={PrivacyPolicy}/>
+        <Route exact path="/termsofuse" component={TermsAndConditions}/>
   </Switch>
 </Layout>
  

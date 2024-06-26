@@ -1,9 +1,11 @@
-
+.head-img{
+  align-self:flex-start;
+}
 .nav-menu-item {
     font-family: 'Roboto';
-    margin: 10px;
+    margin-left: 30px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px !important;
     color:white;
   }
 .nav-menu-item:hover{
@@ -16,9 +18,12 @@
 }  
 .navbar-toggler-icon{
     background-color: #ffffff;
+   
 }
 .custom-toggler {
-  border-color: #ffffff; /* Change the border color */
+  border-color: #ffffff; 
+  
+  /* Change the border color */
 }
 
 .nav-link {
@@ -26,12 +31,17 @@
     align-items: center;
     text-decoration: none;
     color:white !important;
+    
   }
+
 
 .custom-navbar {
     background-color:black !important; /* Custom background color */
     
 }
+
+
+
 
 
 

@@ -14,9 +14,9 @@ const Header=()=>{
         <Container className="items-separation">
           <Navbar.Brand href="/">
                        <img src="https://glignesis.com/images/Glignesis.png"
-                            width="80"
-                            height="50"
-                            className="d-inline-block align-top"
+                            width="120"
+                            height="80"
+                            className="d-inline-block align-top head-img"
                             alt="Logo"/>
           </Navbar.Brand>
           <Navbar.Toggle classsName="custome-toggler" aria-controls="responsive-navbar-nav" />

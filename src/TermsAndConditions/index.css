@@ -1,0 +1,11 @@
+.terms-con{
+      height:90vh;
+      padding:50px;
+      display:flex;
+      flex-direction:column;
+}
+.terms-head{
+      display:flex;
+      align-self: center;
+      padding-bottom:30px;
+}

@@ -17,7 +17,7 @@ const Team=()=>{
 
               <div className="image-container">
                    <img src="https://glignesis.com/images/kriti.jpg" alt="img" className="image"/>
-                   <h1 className="overlay-text">KRITI<br/>PRODUCT MANAGER</h1>
+                   <h1 className="overlay-text">KRITI<br/>CO-FOUNDER& DIRECTOR</h1>
                    
               </div>
 

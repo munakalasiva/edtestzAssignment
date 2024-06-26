@@ -1,11 +1,25 @@
-.footer{
+.footer-container{
     background-color:black;
+    display:flex;
+    flex-direction:column;
+}
+.footer{
+    
     display:flex;
     justify-content:space-around;
     align-items:center;
     padding:20px;
 }
-
+.footer-para{
+    color:aliceblue;
+    display:flex;
+    align-self:center;
+    font-size:20px;
+    
+}
+.para-foo{
+    margin-left:50px;
+}
 @media screen and (max-width:768px){
     .footer{
         display:flex;
@@ -20,6 +34,7 @@
     flex-direction:column;
     color:white;
     padding:10px;
+    font-size:20px;
 }
 .foo-hea{
     font-size:25px;
