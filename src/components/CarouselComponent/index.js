@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css";
 import { useHistory } from "react-router-dom";
 
-import image3 from "C:/Users/munak/glignesis/src/images/man-working-night.jpg";
-import image1 from "C:/Users/munak/glignesis/src/images/html-css-collage-concept-with-person (1).jpg";
-import image2 from "C:/Users/munak/glignesis/src/images/woman-office.jpg";
-/*src/assets/images/person-working-html-computer.jpg';*/
+import image3 from "../../images/man-working-night.jpg";
+import image1 from "../../images/html-css-collage-concept-with-person (1).jpg";
+import image2 from "../../images/woman-office.jpg";
+
 
 function CarouselComponent() {
 

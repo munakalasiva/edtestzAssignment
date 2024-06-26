@@ -2,6 +2,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from "../../Screenshot_2024-05-15_121708-removebg.png";
 import "./index.css";
 const Header=()=>{
 
@@ -13,7 +14,7 @@ const Header=()=>{
         <Navbar  expand="lg" className="custom-navbar">
         <Container className="items-separation">
           <Navbar.Brand href="/">
-                       <img src="https://glignesis.com/images/Glignesis.png"
+                       <img src={logo}
                             width="120"
                             height="80"
                             className="d-inline-block align-top head-img"
