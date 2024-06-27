@@ -31,7 +31,7 @@ function App() {
         <Route exact path="/application" component={Apply}/>
         <Route exact path="/about" component={About} />
         <Route exact path="/team" component={Team} />
-        <Route exact path="/contact us" component={ContactUs} />
+        <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/privacypolicy" component={PrivacyPolicy}/>
         <Route exact path="/termsofuse" component={TermsAndConditions}/>
   </Switch>
