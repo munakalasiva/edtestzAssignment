@@ -20,8 +20,8 @@ const Services=()=>{
                  </div>
 
                  <div className="card">
-                     <h1 className="sub-head">POS APPLICATION</h1>
-                     <p>"Glignesis Technologies' POS System:<br/> Your reliable solution for efficient and <br/>secure transactions. Streamlined <br/>interface and robust features <br/>guarantee a seamless point-of-sale <br/>experience."</p>
+                     <h1 className="sub-head">ScanBreezePOS</h1>
+                     <p>"Glignesis Technologies' ScanBreezePOS System:<br/> Your reliable solution for efficient and <br/>secure transactions. Streamlined <br/>interface and robust features <br/>guarantee a seamless point-of-sale <br/>experience."</p>
                      <button className="button" onClick={navigatePOS}>READ MORE</button>
                  </div>
 
