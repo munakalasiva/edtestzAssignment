@@ -16,7 +16,7 @@
 .image-container {
     position:relative;
     width: 100%;
-    max-width: 485px; /* Adjust the max-width as needed */
+    max-width: 400px; /* Adjust the max-width as needed */
     margin:20px;
     
     justify-content: space-evenly;
@@ -46,11 +46,15 @@
     font-size:20px; /* Adjust font size as needed */
   }
   
-  .cards-cont{
-      display:flex;
-      flex-wrap:wrap;
+  .team-cards{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+  
   }
-
+  
+  
   @media screen and (max-width:768px){
        .team-cont{
         height:auto;
