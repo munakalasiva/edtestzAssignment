@@ -1,11 +1,12 @@
 
-import "./index.css";
+import React from 'react';
 import md from "../../images/md.JPG";
 import kriti from "../../images/kriti.jpg";
 import shiva from "../../images/sivq.jpg";
 import siddu from "../../images/siggu.jpg";
 import ravi from "../../images/ravi.JPG";
 import sharmishta from "../../images/sharmishta.jpg";
+import "./index.css";
 
 const Team=()=>{
     return(

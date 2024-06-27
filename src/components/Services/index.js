@@ -15,19 +15,19 @@ const Services=()=>{
                  <div className="adj">
                  <div className="card">
                      <h1 className="sub-head">CLASSIFIEDS</h1>
-                     <p>"Classifieds by Glignesis <br/>Technologies:Your trusted platform<br/> for seamless, secure buying and <br/>selling. User-friendly interface and <br/>seller ratings ensure a smooth<br/> marketplace experience."</p>
+                     <p>"Classifieds by Glignesis Technologies:Your trusted platform for seamless, secure buying and selling. User-friendly interface and seller ratings ensure a smooth marketplace experience."</p>
                      <button className="button">READ MORE</button>
                  </div>
 
                  <div className="card">
                      <h1 className="sub-head">ScanBreezePOS</h1>
-                     <p>"Glignesis Technologies' ScanBreezePOS System:<br/> Your reliable solution for efficient and <br/>secure transactions. Streamlined <br/>interface and robust features <br/>guarantee a seamless point-of-sale <br/>experience."</p>
+                     <p>"Glignesis Technologies' ScanBreezePOS System: Your reliable solution for efficient and secure transactions. Streamlined interface and robust features guarantee a seamless point-of-sale experience."</p>
                      <button className="button" onClick={navigatePOS}>READ MORE</button>
                  </div>
 
                  <div className="card">
                      <h1 className="sub-head">E-COMMERCE</h1>
-                     <p>"Glignesis Technologies' E-commerce<br/> Website: Your go-to destination for <br/>seamless online shopping. Intuitive <br/>interface and secure transactions for <br/>a hassle-free experience."</p>
+                     <p>"Glignesis Technologies' E-commerce Website: Your go-to destination for seamless online shopping. Intuitive interface and secure transactions for a hassle-free experience."</p>
                      <button className="button btn1">READ MORE</button>
                  </div>
                  </div>
