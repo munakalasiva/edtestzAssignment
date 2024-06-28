@@ -1,67 +1,73 @@
-.about{
-   /* background-color:#2795B7;*/
-    background-image:url("https://img.freepik.com/free-vector/gradient-background-wave-minimalist-style-design_483537-3860.jpg?t=st=1719052052~exp=1719055652~hmac=ecc40414582b63fe58a5c57c7844bb67cee1ac43e99ad492d63f359fd4613b04&w=1060");
-    height:100vh;
-    background-size:cover;
-    display:flex;
-    flex-direction:column;
-    padding:50px 10px 10px 10px;
-    
+
+
+.about {
+    /* background-color:#2795B7;*/
+    background-image: url("https://img.freepik.com/free-vector/gradient-background-wave-minimalist-style-design_483537-3860.jpg?t=st=1719052052~exp=1719055652~hmac=ecc40414582b63fe58a5c57c7844bb67cee1ac43e99ad492d63f359fd4613b04&w=1060");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px 10px 10px;
 }
-.about-para{
-    font-size:23px;
+
+.about-para {
+    font-size: 23px;
 }
-@media screen and (max-width:768px){
-    .about{
-        height:auto;
-        padding: auto;
+
+.about-heading {
+    display: flex;
+    align-self: center;
+    color: white;
+}
+
+.wrap-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-img {
+    height: 350px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.content {
+    color: aliceblue;
+}
+
+/* Media Queries for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .about {
+        height: auto;
+        padding: 20px 10px;
     }
-    .wrap-img{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        width:100%;
+
+    .wrap-img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
     }
-    .about-img{
-        width:80% !important;
-        height:auto;
-        border-radius:10px;
-       
+
+    .about-img {
+        width: 80% !important;
+        height: auto;
+        border-radius: 10px;
     }
-    .about-para{
-        
-        font-size:18px;
+
+    .about-para {
+        font-size: 18px;
     }
-    .content{
-        width:80% !important;
-        margin-top:20px;
+
+    .content {
+        width: 80% !important;
+        margin-top: 20px;
     }
 }
 
-.about-heading{
-    display:flex;
-    align-self:center;
-    color:white;
-}
-.wrap-img{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    margin-top:100px;
-}
-
-
-.content{
-    color:aliceblue;
-}
-
-.about-img{
-    height:350px;
-    width:450px;
-    border-radius:10px;
-   
-}
 
 
 

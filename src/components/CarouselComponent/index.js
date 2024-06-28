@@ -23,10 +23,10 @@ function CarouselComponent() {
     <Carousel interval={2000} slide={true}>
       
       <Carousel.Item>
-        <img src={image1} alt="img" style={{height:"90vh"}} className="d-block w-100"/>
+        <img src={image1} alt="img" style={{height:"90vh"}} className="d-block w-100 carousel-img"/>
         <Carousel.Caption className="custome-caption">
           <div className="wrap">
-            <h3 className='custom-heading'>WELCOME TO GLIGNESIS<br/> TECHNOLOGIES<br/> PVT LTD</h3>
+            <h3 className='custom-heading'>WELCOME TO GLIGNESIS TECHNOLOGIES PVT LTD</h3>
             <div>
               <p className="home-para">At Glignesis Technologies Pvt. Ltd., we specialize in developing innovative mobile applications and websites that cater to diverse needs. Our expertise lies in crafting our own unique products that push the boundaries of technology and user experience. As a leading third-party platform and software provider, we offer comprehensive solutions that integrate seamlessly into your business operations.</p>
               <div className="btn-sty">
@@ -41,10 +41,10 @@ function CarouselComponent() {
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={image2} alt="img" style={{height:"90vh"}} className="d-block w-100"/>
+      <img src={image2} alt="img" style={{height:"90vh"}} className="d-block w-100  carousel-img"/>
         <Carousel.Caption className="custome-caption">
         <div className="wrap">
-            <h3 className='custom-heading'>WELCOME TO GLIGNESIS<br/> TECHNOLOGIES<br/> PVT LTD</h3>
+            <h3 className='custom-heading'>WELCOME TO GLIGNESIS TECHNOLOGIES PVT LTD</h3>
             <div>
               <p className="home-para">At Glignesis Technologies Pvt. Ltd., we specialize in developing innovative mobile applications and websites that cater to diverse needs. Our expertise lies in crafting our own unique products that push the boundaries of technology and user experience. As a leading third-party platform and software provider, we offer comprehensive solutions that integrate seamlessly into your business operations.</p>
               <div className="btn-sty">
@@ -59,10 +59,10 @@ function CarouselComponent() {
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={image3} alt="img" style={{height:"90vh"}} className="d-block w-100"/>
+      <img src={image3} alt="img" style={{height:"90vh"}} className="d-block w-100 carousel-img"/>
         <Carousel.Caption className="custome-caption">
         <div className="wrap">
-            <h3 className='custom-heading'>WELCOME TO GLIGNESIS<br/> TECHNOLOGIES<br/> PVT LTD</h3>
+            <h3 className='custom-heading'>WELCOME TO GLIGNESIS TECHNOLOGIES PVT LTD</h3>
             <div>
               <p className="home-para">At Glignesis Technologies Pvt. Ltd., we specialize in developing innovative mobile applications and websites that cater to diverse needs. Our expertise lies in crafting our own unique products that push the boundaries of technology and user experience. As a leading third-party platform and software provider, we offer comprehensive solutions that integrate seamlessly into your business operations.</p>
               <div className="btn-sty">

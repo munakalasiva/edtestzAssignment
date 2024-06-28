@@ -73,12 +73,12 @@
         margin:20px;
       }
       .image {
-        height:200px;
+        height:180px;
         max-width:200px;
         border-radius:10px;
       }
       .overlay-text{
-        max-width:200px;
+        max-width:240px;
         font-size:15px;
       }
       
