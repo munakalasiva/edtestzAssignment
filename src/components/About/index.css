@@ -19,9 +19,8 @@
     .wrap-img{
         display:flex;
         flex-direction:column;
-        justify-content:space-around;
+        justify-content:center;
         align-items:center;
-        margin-top:100px;
         width:100%;
     }
     .about-img{
@@ -31,10 +30,11 @@
        
     }
     .about-para{
-        font-size:13px;
+        
+        font-size:18px;
     }
     .content{
-        width:80%;
+        width:80% !important;
         margin-top:20px;
     }
 }

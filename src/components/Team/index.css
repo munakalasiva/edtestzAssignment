@@ -63,7 +63,7 @@
         align-items:center;
        }
        .team-para{
-          font-size:15px;
+          font-size:18px;
        }
        .image-container {
         position: relative;
@@ -79,6 +79,7 @@
       }
       .overlay-text{
         max-width:200px;
+        font-size:15px;
       }
       
     

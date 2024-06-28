@@ -83,7 +83,7 @@ const Footer=()=>{
         </div>
             <div className="footer-para">
                 <p>Copyright © GLIGNESIS Technologies Pvt Ltd. All rights reserved</p>
-                <p className="para-foo" onClick={navigatePrivacyPolicy}>Privacy Policy</p>
+                <p className="para-foo privacy" onClick={navigatePrivacyPolicy}>Privacy Policy</p>
                 <p className="para-foo" onClick={navigateTerms}>Terms Of Conditions</p>
             </div>  
         </div>

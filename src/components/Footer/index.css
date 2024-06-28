@@ -25,7 +25,17 @@
         display:flex;
         flex-direction:column;
         align-items:center;
+        justify-content:center;
+    }
+    .footer-para{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
         text-align:center;
+        font-size:15px;
+    }
+    .privacy{
+        margin-right:50px;
     }
 }
 

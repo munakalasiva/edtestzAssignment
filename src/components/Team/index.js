@@ -35,12 +35,13 @@ const Team=()=>{
 
               <div className="image-container">
                    <img src={siddu} alt="img" className="image"/>
-                   <h1 className="overlay-text">RAVI TEJA MEKALA<br/>BACK-END</h1>
+                   <h1 className="overlay-text">SIDDU PALITHYA<br/>WEB DEVELOPER</h1>
               </div>
 
               <div className="image-container">
                    <img src={ravi} alt="img" className="image"/>
-                   <h1 className="overlay-text">SIDDU PALITHYA<br/>WEB DEVELOPER</h1>
+                   
+                   <h1 className="overlay-text">RAVI TEJA MEKALA<br/>BACK-END</h1>
               </div>
 
               <div className="image-container">

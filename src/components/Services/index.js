@@ -28,7 +28,7 @@ const Services=()=>{
                  <div className="card">
                      <h1 className="sub-head">E-COMMERCE</h1>
                      <p>"Glignesis Technologies' E-commerce Website: Your go-to destination for seamless online shopping. Intuitive interface and secure transactions for a hassle-free experience."</p>
-                     <button className="button btn1">READ MORE</button>
+                     <button className="button">READ MORE</button>
                  </div>
                  </div>
             </div>
