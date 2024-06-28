@@ -104,15 +104,15 @@ const Careers=()=>{
                 <div className="careers-container">
                      <div className="head-wrap">
                             <h1 className="contin-head">ReactJS Developer</h1>
-                            <p className="para">0-2 Years</p>
+                            <p className="paragraph">0-2 Years</p>
                      </div>
                      <div className="btn-wrap">
                             <div>
-                                   <p>Skills : ReactJS, Python, Javascript, HTML, CSS, Angular</p>
-                                   <p>Qualificaton : Graduation with 75%</p>
-                                   <p>Location : Hyderabad</p>
+                                   <p className="card-para">Skills : ReactJS, Python, Javascript, HTML, CSS, Angular</p>
+                                   <p className="card-para">Qualificaton : Graduation with 75%</p>
+                                   <p className="card-para">Location : Hyderabad</p>
                             </div>
-                            <button type="button" className="card-btn" onClick={handleApplyClick}>Apply now</button>
+                            <button type="button" className="card-btn" onClick={handleApplyClick}>Apply</button>
                      </div>
                 </div>
                  

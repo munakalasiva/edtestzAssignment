@@ -121,7 +121,7 @@
 
 
 .contin-head{
-    font-size:25px;
+    font-size:23px;
 }
 .paragraph{
     font-size:18px;
@@ -132,8 +132,12 @@
 }
 .btn-wrap{
     display:flex;
+    
     justify-content:space-between;
-    font-size:20px;
+    
+}
+.card-para{
+  font-size:20px;
 }
 
 .card-btn{
@@ -296,6 +300,11 @@
   justify-content:center;
   
 }
-
+.card-para{
+  font-size:17px;
+}
+.paragraph{
+  font-size:18px;
+}
 
   }  
