@@ -1,0 +1,130 @@
+/* General styles for all devices */
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+}
+
+.login-website-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-right:50px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  width:100%;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for tablets and larger devices */
+@media (min-width: 768px) {
+  .signup-container {
+    padding: 40px;
+    display:flex;
+    flex-direction:row;
+  }
+
+  .login-website-logo {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+
+  .form-container {
+    padding: 30px;
+    max-width: 500px;
+  }
+
+  .form-container h1 {
+    font-size: 28px;
+  }
+
+  .form-container input {
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  .form-container button {
+    padding: 12px;
+    font-size: 18px;
+  }
+}
+
+/* Additional styles for very small devices */
+@media (max-width: 468px) {
+  .signup-container {
+    padding: 10px;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .login-website-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .form-container h1 {
+    font-size: 24px;
+  }
+
+  .form-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .form-container button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

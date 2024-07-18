@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from './components/Layout';
 import {Route, Switch} from 'react-router-dom';
+import SignUp from "./components/SignUp";
+import SignIn from "./components/SignIn";
 import Home from './components/Home'
 import Explore from "./components/Explore"
 import Services from './components/Services'
@@ -19,10 +21,12 @@ import TermsAndConditions from "./TermsAndConditions";
 function App() {
   return (
      
-  <Layout>
-    <Switch>
-       
-        <Route exact path="/" component={Home} />
+  
+  <Switch>
+      <Route exact path="/" component={SignUp}/>
+      <Route exact path="/login" component={SignIn} />
+      <Layout>
+        <Route exact path="/home" component={Home} />
         <Route exact path="/explore" component={Explore}/>
         <Route exact path="/location" component={GoogleMap}/>
         <Route exact path="/services" component={Services} />
@@ -34,8 +38,9 @@ function App() {
         <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/privacypolicy" component={PrivacyPolicy}/>
         <Route exact path="/termsofuse" component={TermsAndConditions}/>
+      </Layout>  
   </Switch>
-</Layout>
+
  
   );
 }

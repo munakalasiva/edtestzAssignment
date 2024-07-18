@@ -16,7 +16,7 @@ const Services=()=>{
                  <div className="card">
                      <h1 className="sub-head">CLASSIFIEDS</h1>
                      <p>"Classifieds by Glignesis Technologies:Your trusted platform for seamless, secure buying and selling. User-friendly interface and seller ratings ensure a smooth marketplace experience."</p>
-                     <button className="button">READ MORE</button>
+                     <button className="button">Disable</button>
                  </div>
 
                  <div className="card">
@@ -28,7 +28,7 @@ const Services=()=>{
                  <div className="card">
                      <h1 className="sub-head">E-COMMERCE</h1>
                      <p>"Glignesis Technologies' E-commerce Website: Your go-to destination for seamless online shopping. Intuitive interface and secure transactions for a hassle-free experience."</p>
-                     <button className="button">READ MORE</button>
+                     <button className="button">Disable</button>
                  </div>
                  </div>
             </div>

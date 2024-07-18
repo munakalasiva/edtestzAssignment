@@ -60,7 +60,7 @@ const Footer=()=>{
                 </div>
                 <div className="icon-wrap">
                     <IoCall className="icon"/>
-                    <p>Call: +918897756444</p>
+                    <p>Call: +916305607082</p>
                 </div>
                 <div className="icon-wrap">
                       <MdEmail className="icon"/>
