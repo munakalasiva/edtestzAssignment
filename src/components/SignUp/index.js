@@ -42,6 +42,10 @@ const Signup = () => {
     }
   };
 
+  const navigateLogin=()=>{
+    history.replace("/login")
+  }
+
   return (
     <div className="signup-container">
       
@@ -51,7 +55,13 @@ const Signup = () => {
           alt="website logo"
         />
       <form className="form-container" onSubmit={handleSubmit}>
+        <div className="signup-adj">
           <h1>Sign Up</h1>
+          <div className="navigation">
+            <p>Already have an account?</p>
+            <button type="button" onClick={navigateLogin}>sign in</button>
+        </div>
+        </div>  
         <div>
           <label>Username:</label>
           <input

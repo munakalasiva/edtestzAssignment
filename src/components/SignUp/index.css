@@ -49,7 +49,7 @@
   box-sizing: border-box;
 }
 
-.form-container button {
+.form-container button[type="submit"] {
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -62,6 +62,20 @@
 
 .form-container button:hover {
   background-color: #0056b3;
+}
+.signup-adj{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.navigation {
+  display: flex;
+}
+
+.form-container button {
+  color: blue;
+  background-color: white;
+  border: none;
 }
 
 /* Styles for tablets and larger devices */
